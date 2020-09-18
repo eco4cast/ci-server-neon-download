@@ -33,7 +33,7 @@ print("Downloading: DP1.20053.001")
 neonstore::neon_download(product="DP1.20053.001",site = sites, type = "expanded", start_date = start_date, .token = Sys.getenv("NEON_TOKEN"))
 print("Downloading: DP1.20288.001")
 neonstore::neon_download(product="DP1.20288.001",site = sites, type = "expanded", start_date = start_date, .token = Sys.getenv("NEON_TOKEN"))
-print("Downloading: ")
+print("Downloading: DP1.20264.001")
 neonstore::neon_download("DP1.20264.001", site =  sites, type = "expanded", start_date = start_date, .token = Sys.getenv("NEON_TOKEN"))
 
 #Phenology
