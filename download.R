@@ -20,10 +20,12 @@ print("Downloading: DP1.10093.001")
 neonstore::neon_download(product="DP1.10093.001", type = "expanded", start_date = start_date, .token = Sys.getenv("NEON_TOKEN"))
 
 # Terrestrial
-#DP4.00200.001
+#DP4.00200.001 & DP1.00094.001
 sites <- c("BART", "KONZ", "SRER", "OSBS")
 print("Downloading: DP4.00200.001")
 neonstore::neon_download(product="DP4.00200.001", site = sites, type = "basic", start_date = start_date, .token = Sys.getenv("NEON_TOKEN"))
+print("Downloading: DP1.00094.001")
+neonstore::neon_download(product="DP1.00094.001", site = sites, type = "basic", start_date = start_date, .token = Sys.getenv("NEON_TOKEN"))
 
 # Aquatic
 #DP1.20053.001
