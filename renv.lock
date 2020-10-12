@@ -179,15 +179,15 @@
     },
     "neonstore": {
       "Package": "neonstore",
-      "Version": "0.3.0",
+      "Version": "0.3.1",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "neonstore",
       "RemoteUsername": "cboettig",
-      "RemoteRef": "db",
-      "RemoteSha": "2f613ca0a4668d09440f11a9ba41a93999d0bcb1",
-      "Hash": "31d1db96104614c75a3bd1b17157ec1e"
+      "RemoteRef": "HEAD",
+      "RemoteSha": "0bda17c52dac6756c94ea4800d9044619c62cf54",
+      "Hash": "486e5e30be3a9765b98d43c56ce28e62"
     },
     "openssl": {
       "Package": "openssl",
@@ -247,10 +247,10 @@
     },
     "rlang": {
       "Package": "rlang",
-      "Version": "0.4.7",
+      "Version": "0.4.8",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "c06d2a6887f4b414f8e927afd9ee976a"
+      "Hash": "843a6af51414bce7f8a8e372f11d6cd0"
     },
     "sys": {
       "Package": "sys",
